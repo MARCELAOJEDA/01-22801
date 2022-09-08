@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/LogoReact.png" type="logo">
+    <link rel="icon" href="img/Logo.png" type="logo">
     <link rel="stylesheet" href="css/index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">  
     <title>Cuaderno de Tareas</title>
 </head>
 <body>
-        <h1>Curso React</h1>
-        
+    <script>
+        window.alert("La Tarea 2 esta en construccion");
+    </script>
+    <!-- Comienzo de Navbar-->
     <nav class="navbar bg-light fixed-top">
         <div class="container-fluid">
         <a class="navbar-brand" href="#">Curso de React</a>
@@ -29,34 +31,141 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="https://meet.google.com/nch-yngs-ggk">Aqui nos reunimos</a>
+                <a class="nav-link" href="https://meet.google.com/nch-yngs-ggk" target="_blank">Aqui nos reunimos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://meet.google.com/nch-yngs-ggk">Da el presente</a>
+                    <a class="nav-link" href=" https://forms.gle/cbssNtUgptm6Ppzw6" target="_blank">Da el presente</a>
                     </li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Mas informacion
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1RbHRPI6rYaaPlbF_IEWiFiR0SaoXomXK?usp=sharing">Teoria</a></li>
-                    <li><a class="dropdown-item" href="https://youtube.com/playlist?list=PL9LIrEiirmm9kpKuLAjXeu7QVXW8cxut6">Youtube</a></li>
-                    <li>
-                    <!-- <hr class="dropdown-divider"> -->
-                    </li>
+                    <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1RbHRPI6rYaaPlbF_IEWiFiR0SaoXomXK?usp=sharing" target="_blank">Teoria</a></li>
+                    <li><a class="dropdown-item" href="https://youtube.com/playlist?list=PL9LIrEiirmm9kpKuLAjXeu7QVXW8cxut6" target="_blank">Youtube</a></li>
+                    <!--<li> <hr class="dropdown-divider"> </li>-->
                     <li><a class="dropdown-item" href="https://forms.gle/e7KfGdwbS6dhiRJv5">Consultas</a></li>
                 </ul>
                 </li>
             </ul>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
             </div>
         </div>
         </div>
     </nav>
+<!-- Fin de Navbar-->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> 
+<h1>Listado de tareas</h1>
+
+<!-- Botones de tarea -->
+    <div class="conteiner">
+        <div class="row align-items-center">
+            <div class="col-3">
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-01</a></button>
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/02.html" role="button">T-02</a></button> 
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-03</a></button>
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-04</a></button> 
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-05</a></button>
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-06</a></button> 
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-07</a></button>
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-08</a></button> 
+            </div>
+        </div>
+        <div class="row  align-items-center">
+            <div class="col-3 ">
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-09</a></button>
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-10</a></button> 
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-11</a></button>
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-12</a></button> 
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-13</a></button>
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-14</a></button> 
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-15</a></button>
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-16</a></button> 
+            </div>
+        </div>
+        
+        <div class="row  align-items-center">
+            <div class="col-3">
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-17</a></button>
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-18</a></button> 
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-19</a></button>
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-20</a></button> 
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-21</a></button>
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-22</a></button> 
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-23</a></button>
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-24</a></button> 
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-3">
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-25</a></button>
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-26</a></button> 
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-27</a></button>
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/01.html" role="button">T-28</a></button> 
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/29.html" role="button">T-29</a></button>
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/30.html" role="button">T-30</a></button> 
+            </div>
+            
+            <div class="col-3">
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/31.html" role="button">T-31</a></button>
+                <button type="button" class="btn btn-primary"><a class="btn btn-primary" href="./tareas/final.html" role="button">T32</a></button>
+            </div>    
+        </div>
+</div>
+<!-- Fin botones de tarea -->
+
+<!--  tarjetas 
+    <div class="card" style="width: 18rem;">
+        <img src="./img/foto1.png" class="card-img-top" alt="foto de frente">
+        <h2>Estudiante</h2> 
+    </div>
+    <div class="card" style="width: 18rem;">
+        <h2>Estudiante</h2> 
+        <p> Marcela Ojeda &copy; 2022</p>
+        <p>Repositorio: <a href="https://github.com/MARCELAOJEDA/01-22801" target="_blank">Github</a></p>
+        <p>mail: queso.en.la.red@gmail.com</p>
+    </div>
+ fin de tarjetas -->
+ 
+<div class="card">
+    <div class="frente">
+        <img src="./img/foto1.png" alt="foto de frente">
+        <h3>Estudiante</h3>
+    </div>
+</div>
+
+<div class="dorso">
+    <h3>Estudiante</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae reprehenderit cumque sunt excepturi asperiores? Ab, ea dignissimos molestiae rem corrupti perspiciatis enim, error eius distinctio facilis in, iusto dolore architecto?</p>
+    <div class="link">
+        <a href=""></a>
+    </div>
+</div>
+
+<footer> 
+<p>Este e el footer</p>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>  
 </body>
 </html>
