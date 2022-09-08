@@ -1,1 +1,74 @@
+*{
+    margin: 0px;
+    padding:0px;
+    background: rgb(9, 250, 222); 
+}
+body{
+    background-color: rgb(214, 57, 180);
+}
+h1{
+    background-color: rgb(226, 160, 244);
+    padding: 100px;   
+    margin: 40px; 
+    width: 50%;
+    height: 50%; 
+    text-align: center;
+    border-radius: 30px;
+}
+.col{
+    padding: 50px; 
+    margin: 40px;
+    width: 90%;
+    height: 150%;
+}
+.row{ 
+    padding: 5px;
+    margin: 5px;
+    border-radius: 30px;
+    }
+.col{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 30px;
+    }
+.conteiner{
+background-color: rgb(17, 139, 226);
+width: 100%;
+height: 100%;
+margin: 20px;  
+padding: 30px;  
+border-radius: 30px;
+}
 
+.card{
+position: relative;
+width: 300px;
+height: 350px;
+}
+
+.card .frente{
+position:absolute;
+width: 100%;
+height: 100%;
+backface-visibility: hidden;
+border-radius: 10px;
+overflow: hidden;
+transition: 5s;
+}
+
+.card .dorso{
+transform:perspective(600px) rotateY(0deg);
+box-shadow: 0 5px 10px ;
+
+}
+.card .dorso .img{
+position:absolute;
+width: 100%;
+height: 100%;
+object-fit:cover;
+}
+.car .dorso .h3{
+width: 100%;
+height: 45px;
+
+}

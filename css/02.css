@@ -1,0 +1,9 @@
+.row{ 
+background-color: rgb(244, 26, 171);
+padding: 10px;
+margin: 5px;
+}
+.col{
+    background-color: chartreuse;
+    margin: 5px;
+}
