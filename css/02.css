@@ -1,9 +1,7 @@
-.row{ 
-background-color: rgb(244, 26, 171);
-padding: 10px;
-margin: 5px;
+*{
+    background-color: aqua;
 }
-.col{
-    background-color: chartreuse;
-    margin: 5px;
+.btn{
+text-align: center;
+align-items: center;
 }
