@@ -1,11 +1,11 @@
+
 let miLet=0;
 var miVar=-1;
 
-const miDoc=document;
+const miDoc=Document;
 
 
 console.log(miVar)
 console.log(miLet)
 console.log(miDoc)
 
-//problemas para q funcione el breack point y menu q despliega en document
