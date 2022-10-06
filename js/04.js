@@ -36,23 +36,26 @@ const miRaton2 = new Raton("Ratin");
 console.log(miRaton2);
 */
 class Video {
-    constructor(formato,duracion,controles,alto,ancho){
+    constructor(formato,duracion,controles,alto,ancho,url){
 this.formato=formato;
 this.duracion=duracion;
 this.controles=controles;
 this.alto=alto;
 this.ancho=ancho;
+this.url=url;
     }
 }
 console.log(Video);
 
 class Audio {
-    constructor(formato,duracion,controles){
+    constructor(formato,duracion,controles,url){
 this.formato=formato;
 this.duracion=duracion;
 this.controles=controles;
+this.url=url;
     }
 }
+console.log(Video);
 console.log(Video);
 
 class Boton{
@@ -65,9 +68,11 @@ class Boton{
     }
 }
 console.log(Boton);
+console.log(Boton.color);
 
 class Elementos {
     constructor(array,boton,video,audio){
+        
         this.array=array;
         this.boton=boton;
         this.video=video;
@@ -76,7 +81,7 @@ class Elementos {
     }
 }
 console.log(Elementos);
-
+console.log(Elementos.audio);
 
 
 
